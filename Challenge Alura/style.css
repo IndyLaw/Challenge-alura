@@ -1,0 +1,123 @@
+* { background-image: url(imagens/stars.jpg);
+    font-family: 'Inter', sem serifa;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+.logoalura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    background: black;
+    background-repeat: no-repeat;
+    width: 490px;
+    border: 1px solid white;
+    color: white;
+    margin-top: 50px;
+    text-transform: lowercase;
+}
+
+::placeholder {color: white;}
+    .text-area :focus {
+        outline: none;
+    }
+
+.mensagem {
+    background: black;
+    width: 340px;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    border-radius: 24px;
+    color: white;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+
+}
+
+
+.bnt-desencriptar {
+
+    background: black;
+    border: 1px solid white;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.bnt-desencriptar:hover {
+    border:1px solid blue;
+}
+
+.bnt-encriptar {
+    background: black;
+    border: 1px solid white;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.bnt-encriptar:hover {
+    border: 1px solid blue;
+}
+
+
+.bnt-copiar {
+
+    background: white;
+    border: 1px solid white;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+    right: 127px;
+}
+
+.bnt-copiar:hover {
+    border: 1px solid blue;
+}
+
+.informacoes {
+    color: white;
+    font-size: 3em;
+    font-size: 0.5em;
+    text-align:left;
+    height:30px;
+    
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+}
